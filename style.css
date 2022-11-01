@@ -1,0 +1,611 @@
+@import "bootstrap";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DCD0E2;
+}
+
+nav {
+    width: 100%;
+    height: 10%;
+    background-color: #91AC8D;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+    font-size: 23px;
+    opacity: 90%;
+}
+
+nav ul {
+    width: 80%;
+    margin: 0 auto;
+    min-width: 60%;
+    height: 10%;
+}
+
+nav ul li {
+    list-style-type: none;
+    width: 10%;
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    line-height: 3.5em;
+    display: block;
+    color: #023D03;
+}
+
+li a:hover{
+    color: white;
+}
+
+
+
+h1 {
+    font-family:'Playfair Display', serif;
+    color: #023D03;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: #023D03;
+    font-size: 70px;
+}
+
+p {
+    font-family:'Raleway', sans-serif;
+    color: #023D03;
+    font-size: 35px;
+}
+
+
+#logo{
+    width: 17%;
+    margin-top: 5%;
+    float: right;
+    margin-right: 2%;
+}
+
+
+/* home styling ------------------------------------------------*/
+
+#home h1{
+  font-size: 70px;
+  position:relative;
+  top: -45%;
+  left: 40%;
+}
+
+#home h2 {
+  position: relative;
+  top: -43%;
+  left: 40%;
+}
+
+#home-img {
+    width: 38%;
+    margin-top: 2%;
+}
+
+#home-img2{
+    width: 30%;
+    float: right;
+    margin-top: -10%;
+    margin-right: 8%;
+    display: flex;
+    position: sticky;
+    z-index: 999;
+}
+
+#home p {
+    float: left;
+    font-size: 35px;
+    width: 45%;
+    margin-left: 10%;
+    margin-top: 12%;
+}
+
+#home .container {
+    width: 90%;
+    height: 85%;
+    border: 1px solid;
+    background-color:#91AC8D;
+    color: #91AC8D;
+    float: left;
+    margin-left: 10%;
+    margin-top: -40%;
+    margin-bottom: 0 auto;
+}
+
+/* Our Roots --------------------------------------------------------*/
+
+#about h1{
+    font-size: 150px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+#about-img{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#about p {
+    font-size: 28px;
+}
+
+.info-1 {
+ width: 35%;
+ font-size: 35px;
+ height: 50%;
+ margin-top: 62%;
+ margin-left: 10%;
+}
+
+.info-1 p {
+    margin-top: 4%;
+}
+
+#whoweare {
+    width: 35%;
+    float: right;
+    margin-top: 1%;
+    margin-right: 10%;
+}
+
+.info-2 {
+    width: 55%;
+    height: 50%;
+    margin-top: 7%;
+    margin-left: 4%;
+    float: right;
+    margin-right: 20%;
+   }
+
+.info-2 p {
+    margin-top: 4%;
+}
+
+.container-2 {
+    background-color: #91AC8D;
+    width: 80%;
+    height: 80%;
+    float: right;
+    margin-top: 3%;
+}
+
+#believe {
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+    margin-top: -2%;
+    display: flex;
+    position: sticky;
+    z-index: 999;
+    margin-bottom: 2%;
+}
+
+   .info-3 {
+    width: 35%;
+    height: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+    float: left;
+   }
+
+   .info-3 p {
+    margin-top: 4%;
+}
+
+/* Our Plants --------------------------------------------*/
+
+#plants h1 {
+    font-size: 150px;
+    margin-top: 18%;
+}
+
+#our-plants {
+text-align: center;
+}
+
+.big {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#big-h1 {
+    float: right;
+    margin-top: 11%;
+    margin-right: 12%;
+    font-size: 110px;
+}
+
+/* ---- images */
+#big-1 {
+    float: left;
+    width: 14%;
+    margin-left: 12%;
+    margin-top: 12%;
+}
+
+
+#big-2 {
+    float: left;
+    width: 19%;
+    margin-top: 1%;
+    margin-left: 7%;
+}
+
+#big-3 {
+    float: left;
+    width: 19%;
+    margin-left: 1%;
+    margin-top: -14%;
+}
+
+.medium {
+    margin-top: 70%;
+    margin-bottom: 10%;
+}
+.medium h1 {
+    font-size: 110px;
+   margin-left: -13%;
+    float: left;
+    
+}
+
+/*-------images*/
+#medium-1{
+    width: 19%;
+    margin-right: 30%;
+    float: right;
+    margin-top: 5%;
+}
+
+#medium-2{
+    width: 16%;
+    margin-top: 1%;
+    margin-right: 30%;
+    float: right;
+}
+
+#medium-3{
+    width: 19%;
+    margin-top: -15%;
+    margin-right: -38%;
+    float: right;
+}
+
+.small {
+    margin-top: 10%;
+}
+
+.small h1 {
+    float: right;
+    margin-top: 10%;
+    margin-right: 14%;
+    font-size: 110px;
+    margin-bottom: 40%;
+    padding-bottom: 180px;
+}
+
+
+#small-1 {
+    float: left;
+    width: 20%;
+    margin-left: 4%;
+    margin-top: 21%;
+}
+
+#small-2 {
+    float: left;
+    width: 15%;
+    margin-left: 25%;
+    margin-top: -33%;
+}
+
+#small-3 {
+    float: left;
+    width: 12%;
+    margin-left: 25%;
+    margin-top: -60%;
+    margin-bottom: 10%;
+}
+
+/* Plant popups ---------------------------------*/
+
+
+ button {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-left: -16%;
+    font-size: 10px;
+    background-color: lightgray;
+    border: none;
+    border: 8px solid darkgray;
+    opacity: .9;
+    float: left;
+    transition-duration: 0.4s;
+    margin-top: 11%;
+  }
+
+  .btn2 {
+    margin-top: 0%;
+    margin-left: -3%;
+  }
+
+  .btn3 {
+    margin-left: -2%;
+    margin-top: 9%;
+  }
+
+  .btn4 {
+    margin-left: 0%;
+    margin-top: -2%;
+  }
+
+  .btn5 {
+    
+    margin-top: -16%;
+    float: right;
+    margin-right: -34em;
+  }
+
+  .btn6 {
+    margin-right: -30em;
+    margin-top: 0%;
+    float: right;
+  }
+
+  .btn7 {
+    margin-left: -38em;
+    margin-top: 8%;
+    float: left;
+  }
+
+  .btn8 {
+    margin-top: -45%;
+    float: left;
+    margin-left: 66em;
+    
+  }
+
+  .btn9 {
+    margin-top: -62%;
+    float: left;
+    margin-left: 35em;
+    
+  }
+
+  button:hover {
+    background-color: white;
+  }
+
+.popup .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+  }
+
+.popup .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: #BDD1BA;
+    width: 80%;
+    height: 80%;
+    z-index: 2;
+    text-align: center;
+padding: 20px;
+box-sizing: border-box;
+opacity: 0.98;
+border: 3px solid white;
+transition: ease-in-out 0.5s;
+
+}
+
+.popup p {
+    font-size: 18px;
+    width: 62%;
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+    background-color: white;
+    padding: 25px 50px;
+    border-radius: 20px;
+    text-align: left;
+    line-height: 1.6em;
+}
+
+.popup h3 {
+    margin-right: -33%;
+    margin-top: 2%;
+}
+
+.popup .close-btn {
+position: absolute;
+right: 20px;
+top: 20px;
+width: 35px;
+height: 35px;
+background: #033D04;
+color: #fff;
+font-size: 25px;
+font-weight: 600;
+line-height: 30px;
+text-align: center;
+border-radius: 50%;
+}
+
+.popup.active .overlay {
+display: block;
+}
+
+.popup.active .content {
+transition: 400ms ease-in-out;
+transform: translate(-50%, -50%) scale(1);
+}
+
+/*-------------------popup images */
+
+.popup img{
+    float: left;
+    width: 32.7%;
+    margin-top: -9.5%;
+}
+
+
+/* Easy Care Plants -----------------------------------------------*/
+#easy h1 {
+    font-size: 80px;
+   margin-bottom: 20em;
+   margin-left: 5%;
+   position: fixed;
+   width: 50%;
+   float: right;
+}
+
+
+
+
+#easy .slide #plant1 #plant2 #plant3 #plant4 #plant5{
+   position: fixed;
+}
+
+.slide .content {
+    background-color: #BDD1BA;
+    height: 600px;
+    width: 80%; 
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: #91AC8D 4.5px 4.5px 22px (0, 0, 0, 0.1);
+    margin-top: 5%;
+}
+
+
+.slide .content p {
+    font-size: 22px;
+    width: 68%;
+    float: right;
+    margin-left: 20%;
+    padding: 40px 90px;
+    line-height: 1.6em;
+    margin-top: -36%;
+   
+}
+
+#easy .slide h3 {
+    float: right;
+    margin-top: 2%;
+    width: 68%;
+    text-align: center;
+    font-size: 50px;
+}
+
+#easy .slide .content img{
+    float: left;
+    width: 30%;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 10px;
+    box-shadow:
+    4.5px 4.5px 22px rgba(0, 0, 0, 0.1);
+}
+
+#easy div.fp-slidesNav fp-bottom {
+    color: white;
+}
+
+.fp-controlArrow {
+    position: absolute;
+    z-index: 4;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-top: -38px;
+}
+
+
+.fp-custom-arrow.left {
+  margin-left: 5%;
+   
+}
+
+.fp-controlArrow.fp-prev {
+    left: 0;
+    width: 60px;
+    height: 60px;
+    margin-left: 5%;
+}
+
+.fp-controlArrow.fp-next {
+    right: 0;
+    width: 60px;
+    height: 60px;
+    margin-right: 5%;
+}
+
+.container-3 {
+    background-color: #91AC8D;
+    width: 48%;
+    height: 70%;
+    float: right;
+    margin-top: -35%;
+}
+
+
+
+
+
+
+#contact {
+    background-image: url('images/contact.jpeg') ;
+    background-size: cover;
+}
+
+.container-4 {
+    background-color: white;
+    width: 50%;
+    height: 46em;
+    margin-top: 0%;
+    margin-left: 25%;
+}
+
+#contact h1{
+    text-align: left;
+    padding: 60px 50px 0px 50px;
+    font-size: 70px;
+    margin-left: 20%;
+    
+}
+
+#contact .container-4 p {
+    font-size: 27px;
+    font-weight: 100;
+    line-height: 2;
+    margin-left: 22%;
+    margin-top: 3%;
+}

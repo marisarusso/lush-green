@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "fullpage.js": "^4.0.12"
+  }
+}

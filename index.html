@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fullpage.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+     <!-- icons -->
+     <script src="https://kit.fontawesome.com/302d8980f1.js" crossorigin="anonymous"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   
+
+    <title>Lush Green</title>
+</head>
+<!-- <nav>
+    <ul>
+        <li ><a href="#home" title="home">Home</a></li>
+        <li ><a href="#about" title="Our Roots">About</a></li>
+        <li ><a href="#plants" title="Our Plants">Plants</a></li>
+        <li ><a href="#easy" title="Easy Care Plants">Easy Care</a></li>
+    </ul>
+</nav> -->
+
+<body>
+    <div id="fullpage">
+        <section class="section s1" id="home">
+            <img src="images/home.jpeg" id="home-img">
+            <img src="images/logo.png" id="logo">
+            <h1> A plant for every lifestyle </h1>
+            <h2> Green is our passion</h2>
+
+            <img src="images/home-2.png" id="home-img2">
+            <div class="container">
+                <p>At Lush Green, we believe that everyone deserves the opportunity to experience the joy of caring for
+                    houseplants!
+                    So our mission is to help you.
+                    <br>
+                    <br>
+                    We have a plant to match each person, alongside all the information you need to get your new plant
+                    addition thriving!!
+                </p>
+            </div>
+
+        </section>
+
+        <section class="section s2" id="about">
+            <h1> Our Roots</h1>
+            <img src="images/about.png" id="about-img">
+
+            <img src="images/whoweare.png" id="whoweare">
+            <div class="info-1">
+                <h3>Who We Are</h3>
+                <p>Here at Lush Green we are passionate about all things houseplants!
+                    We are a specialised store based in Melbourne with years of experience
+                    & knowledge on making your plants thrive!</p>
+            </div>
+
+            <div class="container-2">
+                <div class="info-2">
+                    <h3>What We Do</h3>
+                    <p>We like to leave a lasting touch on all of our customers, providing nothing but the upmost in
+                        customer service.
+                        We are here to educate and inform, giving customers the best possible chance of a happy,
+                        thriving plant.
+                        We also pride ourselves on supplying top quality plants that have been locally grown & sourced.
+                    </p>
+                </div>
+            </div>
+
+            <img src="images/believe.png" id="believe">
+            <div class="info-3">
+                <h3>Who We Believe</h3>
+                <p>We believe that everyone deserves the fuzzy feeling of a happy plant!
+                    So plant care & education is our highest priority when each customer steps foot into our store.
+                    Regardless of your plant knowledge level, we are here to help you!</p>
+            </div>
+
+        </section>
+
+        <!------------------------Our Plants ------------------------------------------------------------------------------->
+
+        <section class="section s3" id="plants">
+            <h1 id="our-plants"> Our Plants</h1>
+
+
+            <div class="big" id="big">
+                <h1 id="big-h1">
+                    Big
+                    <br>
+                    Beauties
+                </h1>
+                <!-----FICUS------------------------------------------------------------------------------------------>
+                <img src="images/big-1.jpeg" id="big-1">
+                <div class="popup" id="popup-1">
+                    <div class="overlay"></div>
+                    <div class="content">
+
+                        <!-- toggle close button-->
+                        <div class="close-btn" onclick="togglePopup()">&times;</div>
+
+                        <!-- toggle content-->
+                        <h3>Ficus</h3>
+                        <img src="images/ficus-about.jpeg" id="ficus-about">
+                        <p>
+                            <b>A popular, evergreen, plant with shiny, strong burgundy leaves. 
+                            They are quite low maintenance when in the correct lighting and also remove chemical toxins from the air. </b>
+                            <br>
+                            <br>
+                            <i class="far fa-sun"></i> - Bright indirect sun and/or full sun, part shade. 
+                            <br>
+                            <br>
+                            <i class="fas fa-tint"></i> - Keep soil moist but not super wet, water when soil is dry to touch. Prefers freely draining soil. 
+                            <br>
+                            <br>
+                            <i class="fas fa-thermometer-half"></i> - Prefer warmer, more humid temperatures. 
+                            <br>
+                            <br>
+                            <i class="fas fa-exclamation-circle"></i> - Ficus sap can be toxic to dogs, so be mindful.
+                        </p>
+                    </div>
+                </div>
+                <!-- tooltip popup-->
+                <sl-tooltip content="Click to Reveal">
+                    <button onclick="togglePopup()" class="btn1"></button>
+                </sl-tooltip>
+
+                <!-----MONSTERA------------------------------------------------------------------------------------------>
+                <img src="images/big-2.png" id="big-2">
+
+                <div class="popup" id="popup-2">
+                    <div class="overlay"></div>
+                    <div class="content">
+
+                        <!-- toggle close button-->
+                        <div class="close-btn" onclick="togglePopup2()">&times;</div>
+
+                        <!-- toggle content-->
+                        <h3>Monstera Deliciosa</h3>
+                        <img src="images/monstera-about.jpeg" id="monstera-about">
+                        <p>
+                            <b>Monstera is an evergreen climbing plant, using its long aerial roots to seek support and climb trees. 
+                            With majestic glossy leaves that can grow up to 90cm in length when mature with thick green stems.</b>
+                            <br>
+                            <br>
+                            <i class="far fa-sun"></i> - Bright indirect light indoors or partially shaded outside. 
+                            <br>
+                            <br>
+                            <i class="fas fa-tint"></i> - Keep moist in warmer weather, let it  dry out completely between waterings. 
+                            <br>
+                            <br>
+                            <i class="fas fa-thermometer-half"></i> - Being a tropical plant, It enjoys warmer temperatures, but can easily adapt to any indoor conditions. 
+                            <br>
+                            <br>
+                            <i class="fas fa-exclamation-circle"></i> - Mildly toxic to dogs and cats, do not consume.
+                        </p>
+                    </div>
+                </div>
+                <!-- tooltip popup-->
+                <sl-tooltip content="Click to Reveal">
+                    <button onclick="togglePopup2()" class="btn2"></button>
+                </sl-tooltip>
+
+
+                <!-----PARLOUR PALM------------------------------------------------------------------------------------------>
+                <img src="images/big-3.png" id="big-3">
+                <div class="popup" id="popup-3">
+                    <div class="overlay"></div>
+                    <div class="content">
+
+                        <!-- toggle close button-->
+                        <div class="close-btn" onclick="togglePopup3()">&times;</div>
+
+                        <!-- toggle content-->
+                        <h3>Majesty Palm</h3>
+                        <img src="images/majesty-about.jpeg" id="majesty-about">
+                        <p>
+                            <b>Also known as the Neanthe bella, is one of the most sought after indoor palms, 
+                            thriving in homes and workplaces with low maintenance care and a reasonable price point as opposed to other palms.</b>
+                            <br>
+                            <br>
+                            <i class="far fa-sun"></i> - Bright to medium indirect light.
+                            <br>
+                            <br>
+                            <i class="fas fa-tint"></i> - Can be sensitive to overwatering, prefer to be on the drier side. Water when top inch of soil is dry. 
+                            <br>
+                            <br>
+                            <i class="fas fa-thermometer-half"></i> - Parlour Palms are happy in average home temperature. 
+                            <br>
+                            <br>
+                            <i class="fas fa-exclamation-circle"></i> - Completely pet safe!
+                        </p>
+                    </div>
+                </div>
+                <!-- tooltip popup-->
+                <sl-tooltip content="Click to Reveal">
+                    <button onclick="togglePopup3()" class="btn3"></button>
+                </sl-tooltip>
+            </div> <!--- end big ------------------------------------------------------>
+            
+
+
+            <div class="medium" id="medium">
+                <h1> Medium
+                    <br>
+                    Marvels
+                </h1>
+
+                <!-----PEACE LILY------------------------------------------------------------------------------------------>
+                <img src="images/medium-1.jpeg" id="medium-1">
+                <div class="popup" id="popup-4">
+                    <div class="overlay"></div>
+                    <div class="content">
+
+                        <!-- toggle close button-->
+                        <div class="close-btn" onclick="togglePopup4()">&times;</div>
+
+                        <!-- toggle content-->
+                        <h3>Peace Lily</h3>
+                        <img src="images/peace-about.jpeg" id="peace-about">
+                        <p>
+                            <b>Peace Lilies are another popular office and house plant. 
+                            When it comes to care, Peace lilies are one of the most low maintenance houseplants, making them perfect for plant parents of all knowledge levels. </b>
+                            <br>
+                            <br>
+                            <i class="far fa-sun"></i> - Prefers bright indirect light but can condition itself to medium light.
+                            <br>
+                            <br>
+                            <i class="fas fa-tint"></i> - Soak water all the way through when watering, wait till the top inch of soil is dry before watering next. 
+                            <br>
+                            <br>
+                            <i class="fas fa-thermometer-half"></i> - Enjoy more humid temperatures.
+                            <br>
+                            <br>
+                            <i class="fas fa-exclamation-circle"></i> - Can be mildly toxic to cats.
+                        </p>
+                    </div>
+                </div>
+                <!-- tooltip popup-->
+                <sl-tooltip content="Click to Reveal">
+                    <button onclick="togglePopup4()" class="btn4"></button>
+                </sl-tooltip>
+
+
+
+                <!-----TRADESCANTIA------------------------------------------------------------------------------------------>
+                <img src="images/medium-2.png" id="medium-2">
+                <div class="popup" id="popup-5">
+                    <div class="overlay"></div>
+                    <div class="content">
+
+                        <!-- toggle close button-->
+                        <div class="close-btn" onclick="togglePopup5()">&times;</div>
+
+                        <!-- toggle content-->
+                        <h3>Tradescantia</h3>
+                        <img src="images/tradescantia-about.jpeg" id="tradescantia-about">
+                        <p>
+                            <b>The perfect plant for hanging baskets! With beautiful purple, 
+                            green and silver waxy leaves and long beautiful trailing vines this easy grower is perfect for any household. </b>
+                            <br>
+                            <br>
+                            <i class="far fa-sun"></i> - Do best in medium to bright indirect light.
+                            <br>
+                            <br>
+                            <i class="fas fa-tint"></i> - Water well when the soil begins to dry out, keep top inch of soil moist.
+                            <br>
+                            <br>
+                            <i class="fas fa-thermometer-half"></i> - Being a tropical plant, they prefer humidity and aren’t as happy with colder conditions. 
+                            <br>
+                            <br>
+                            <i class="fas fa-exclamation-circle"></i> - Midly toxic to pets.
+                        </p>
+                    </div>
+                </div>
+                <!-- tooltip popup-->
+                <sl-tooltip content="Click to Reveal">
+                    <button onclick="togglePopup5()" class="btn5"></button>
+                </sl-tooltip>
+
+
+                <!-----ALOCASIA------------------------------------------------------------------------------------------>
+                <img src="images/medium-3.png" id="medium-3">
+                <div class="popup" id="popup-6">
+                    <div class="overlay"></div>
+                    <div class="content">
+
+                        <!-- toggle close button-->
+                        <div class="close-btn" onclick="togglePopup6()">&times;</div>
+
+                        <!-- toggle content-->
+                        <h3>Alocasia</h3>
+                        <img src="images/alocasia-about.jpeg" id="alocasia-about">
+                        <p>
+                            <b>A beautiful indoor plant with large, veined leaves and long stems. 
+                            This can be a challenging houseplant to care for but once you have care properly organised, it is so worth it!</b>
+                            <br>
+                            <br>
+                            <i class="far fa-sun"></i> - Do best in bright indirect light.
+                            <br>
+                            <br>
+                            <i class="fas fa-tint"></i> - These plants love their water, so a proper watering schedule is critical! 
+                            Do not let the soil go completely dry, this may upset them and turn the dormant. 
+                            <br>
+                            <br>
+                            <i class="fas fa-thermometer-half"></i> - Alocasias HATE the cold, so be sure to position it in a spot either room temperature or warmer. 
+                            <br>
+                            <br>
+                            <i class="fas fa-exclamation-circle"></i> - Can be toxic if consumed, be mindful.
+                        </p>
+                    </div>
+                </div>
+                <!-- tooltip popup-->
+                <sl-tooltip content="Click to Reveal">
+                    <button onclick="togglePopup6()" class="btn6"></button>
+                </sl-tooltip>
+
+            </div> <!--- end medium ---------------------------------------------------------->
+            
+
+            <div class="small">
+                <h1> Small
+                    <br>
+                    Stunners</h1>
+                <!-----CACTUS------------------------------------------------------------------------------------------>
+                <img src="images/small-1.jpeg" id="small-1">
+                <div class="popup" id="popup-7">
+                    <div class="overlay"></div>
+                    <div class="content">
+
+                        <!-- toggle close button-->
+                        <div class="close-btn" onclick="togglePopup7()">&times;</div>
+
+                        <!-- toggle content-->
+                        <h3>Cactus</h3>
+                        <img src="images/cactus-about.jpeg" id="cactus-about">
+                        <p>
+                            <b>Cactus are succulent plants, with thick large stems and pointy spines. 
+                            Some species of cactus can even produce beautiful bright flowers in the warmer months.</b>
+                            <br>
+                            <br>
+                            <i class="far fa-sun"></i> - Lots of bright light, but be mindful up against windows as this can magnify the light and cause burning.
+                            <br>
+                            <br>
+                            <i class="fas fa-tint"></i> - Water once a week but be sure the soil has dried out between waterings. Cut back in winter as they go dormant in colder months.
+                            <br>
+                            <br>
+                            <i class="fas fa-thermometer-half"></i> - Prefer humid conditions. 
+                            <br>
+                            <br>
+                            <i class="fas fa-exclamation-circle"></i> - Not toxic, but can be harmful to pets due to the sharp spines.
+
+                        </p>
+                    </div>
+                </div>
+                <!-- tooltip popup-->
+                <sl-tooltip content="Click to Reveal">
+                    <button onclick="togglePopup7()" class="btn7"></button>
+                </sl-tooltip>
+
+                 <!-----WATERMELON PEPEROMIA------------------------------------------------------------------------------------------>
+                <img src="images/small-2.jpeg" id="small-2">
+                <div class="popup" id="popup-8">
+                    <div class="overlay"></div>
+                    <div class="content">
+
+                        <!-- toggle close button-->
+                        <div class="close-btn" onclick="togglePopup8()">&times;</div>
+
+                        <!-- toggle content-->
+                        <h3>Watermelon Peperomia</h3>
+                        <img src="images/peperomia-about.jpeg" id="peperomia-about">
+                        <p>
+                            <b>These peltate leaves are oval/circle shaped with a mixture of green and silver stripes. The leaves have a fleshy feel to them and sprout out in all directions, with the potential to grow up to 12 inches tall!</b>
+                            <br>
+                            <br>
+                            <i class="far fa-sun"></i> - Thrive in a medium-light position but can also tolerate lower-light
+                            conditions.
+                            <br>
+                            <br>
+                            <i class="fas fa-tint"></i> - Allow the top few cms of soil to dry out between watering, if wet let it dry out
+                            further. Water around once a week, with just enough water to start to see some draining from
+                            the bottom of the pot. Reduce watering in winter when the plant isn’t in an active growing
+                            phase.
+                            <br>
+                            <br>
+                            <i class="fas fa-thermometer-half"></i> - No preferences.
+                            <br>
+                            <br>
+                            <i class="fas fa-exclamation-circle"></i> - Non toxic to pets!
+                        </p>
+                    </div>
+                </div>
+                <!-- tooltip popup-->
+                <sl-tooltip content="Click to Reveal">
+                    <button onclick="togglePopup8()" class="btn8"></button>
+                </sl-tooltip>
+
+               
+
+                 <!-----STRING OF PEARLS------------------------------------------------------------------------------------------>
+                <img src="images/small-3.jpeg" id="small-3">
+                <div class="popup" id="popup-9">
+                    <div class="overlay"></div>
+                    <div class="content">
+
+                        <!-- toggle close button-->
+                        <div class="close-btn" onclick="togglePopup9()">&times;</div>
+
+                        <!-- toggle content-->
+                        <h3>String of Pearls</h3>
+                        <img src="images/pearls-about.jpeg" id="pearls-about">
+                        <p>
+                            <b>String of Pearls are a creeping, succulent like vine that are perfect to display in hanging baskets or high shelves. </b>
+                            <br>
+                            <br>
+                            <i class="far fa-sun"></i> - Prefer bright indirect light.
+                            <br>
+                            <br>
+                            <i class="fas fa-tint"></i> - They are drought tolerant, but need a good soak every 2 weeks, water again once soil has dried out. 
+                            <br>
+                            <br>
+                            <i class="fas fa-thermometer-half"></i> - Like room temperature to higher humidity. 
+                            <br>
+                            <br>
+                            <i class="fas fa-exclamation-circle"></i> - Can be toxic to both dogs and humans, do not consume!
+                        </p>
+                    </div>
+                </div>
+                <!-- tooltip popup-->
+                <sl-tooltip content="Click to Reveal">
+                    <button onclick="togglePopup9()" class="btn9"></button>
+                </sl-tooltip>
+
+            </div> <!--- end small ---------------------------------------------------------->
+        </section> <!--- end our plants ------------------------------------------------------------------------------->
+
+
+
+        <section class="section s4" id="easy"> <!--- start easy care plants ---------------------------------------------------------->
+            <h1> 5 Easy Care Plants</h1>
+            <div class="slide" id="plant1">
+                <div class="content">
+                    <h3>1. Snake Plant</h3>
+                    <img src="images/snake-care.jpeg" id="snake-care">
+                    <p> Looking for that low maintenance lover as a first time plant parent? Or simply have limited time or lighting? Snake plants, also known as 'mother-in-law's tongue' are a great option for you! Doing fine in bright, medium and lower indirect light.
+                        <br>
+                        <br>
+                        They can go weeks without a drink making them a great addition to any paced household or if you're a frequent traveller.
+                    </p>
+        
+                </div>    
+            </div>
+        
+        
+            <div class="slide" id="plant2">
+                <div class="content">
+                    <h3>2. ZZ Plant</h3>
+                    <img src="images/zz-care.jpeg" id="zz-care">
+                    <p>On the hunt for a houseplant  that is virtually indestructible? Then the ZZ Plant is the perfect match for you. Tall, dark and glossy, with tall foliage that can grow up to 3ft! A stunning addition to any corner of your home.
+                       <br>
+                       <br>
+                        This low maintenance beauty will happily thrive in a shady spot as well as indirect light, it is also happy to be root bound, reducing the need for regular repotting.</p>
+        
+                </div>    
+            </div>
+
+            <div class="slide" id="plant3">
+                <div class="content">
+                    <h3>3. Devils Ivy</h3>
+                    <img src="images/ivy-care.jpeg" id="ivy-care">
+                    <p>The perfect plant for those darker rooms and corners or your home. 
+                        <br>
+                        <br>
+                        This viney stunner is made up of lush heart shaped leaves, ideal for hanging baskets or shelving sending out long lush stems that reach up to 65 ft. It is super forgiving and ideal for forgetful waterers or those lacking in sunny living spaces. Just look at those vines!</p>
+        
+                </div>    
+            </div>
+
+
+            <div class="slide" id="plant4">
+                <div class="content">
+                    <h3>4. Chinese Moneyplant</h3>
+                    <img src="images/money-care.jpeg" id="money-care">
+                    <p>The Chinese money plant has beautiful bright green pancake-shaped leaves that provide an adorable and welcome burst of colour against any space.
+                    <br>
+                    <br>
+                    Money plants prefer bright light, with no direct sunlight. They’re hardy to frost and are likely to put out stunning tiny white flowers on pink stems in colder temperatures.
+                    </p>
+        
+                </div>    
+            </div>
+
+
+            <div class="slide" id="plant5">
+                <div class="content">
+                    <h3>5. Prayer Plant</h3>
+                    <img src="images/prayer-care.jpeg" id="prayer-care">
+                    <p>Can we take a moment to appreciate those gorgeous leaves!</p>
+        
+                </div>    
+            </div>
+
+            <div class="container-3"></div>
+
+
+        </section> <!--- end easy care plants ---------------------------------------------------------->
+
+        <section class="section s5" id="favourite">
+            <h1> Our Favourites</h1>
+        </section>
+
+        <section class="section s6" id="gallery">
+            <h1> Plants in your Space</h1>
+        </section>
+
+        <section class="section s7" id="contact">
+            <div class="container-4">
+            <h1> Talk 
+                <br>Houseplants 
+                <br>To Us</h1>
+            <p>For all your planty questions and 
+                <br>purchases, come visit us in store at 
+                <br><b>46 Melbourne St, Melbourne, VIC.</b>
+                <br>Contact us at -
+               <br> P|<b>04234457</b> 
+               <br> E| <b>LushGreen@gmail.com</b> 
+
+            </p>
+        </div>
+        </section>
+
+    </div>
+    <script src="/fullpage.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>
